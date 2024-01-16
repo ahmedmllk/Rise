@@ -1,0 +1,19 @@
+.main {
+    height: 100%;
+    background: #F5F5F5;
+}
+.Page{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.subPage{
+    width: 80%;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.subsubPage{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh  ;
+}

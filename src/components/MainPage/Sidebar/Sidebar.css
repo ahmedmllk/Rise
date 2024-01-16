@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.Sidebar{
+    width: 20%;
+    margin: 0 2vh;
+}
+/* LatestArticles */
+.Sidebar h1{
+    font-size:15px ;
+    color: rgb(137, 137, 137);
+    font-weight: 500;
+    font-style: italic;
+  
+}
+.LatestA a{
+    color: rgb(50, 50, 50) ;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+    font-size: 17px;
+}
+.LatestA{
+    padding: 0;
+}
+.LatestA li{
+    list-style:inside;
+}
+.Sidebar hr{
+    border: 2px solid rgba(128, 128, 128, 0.123);
+    border-radius: 30px;
+}
+/* Recommendtaions */
+.Recommendation a{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+    font-size: 17px;
+
+}
+.SmallContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.Recommendation img {
+    width: 95%;
+
+}
+.buttons button{
+    border: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+

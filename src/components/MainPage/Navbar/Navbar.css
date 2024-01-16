@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+.Main {
+    height: 100%;
+    background: #F5F5F5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+    padding: 0 2vh;
+    background-color: rgba(141, 141, 141, 0.245);
+}
+.navbar h2{
+    font-family: 'Newsreader', serif;
+    color: rgba(0, 0, 0, 0.43);
+    margin: 0;
+    font-size: 28px;
+}
+.navbar ul{
+    display: flex;
+    gap: 2vh;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.Main h1{
+    padding: 5vh 0;
+    font-family: 'Newsreader', serif;
+    font-size: 60px;
+    text-align: center;
+    word-spacing: 2vh;
+/*     font-style: italic;
+ */}
+.navbare{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbare button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}

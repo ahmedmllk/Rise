@@ -1,0 +1,25 @@
+.DailyFeed{
+    width: 25%;
+}
+.DailyFeed h1{
+    font-family: 'Newsreader', serif;
+    font-size: 50px;
+    font-style: italic;
+    color:black;
+}
+.DailyFeedCard h2{
+    font-family: 'Newsreader', serif;
+    font-size: 25px;
+    font-style: italic;
+    color:black;
+}
+.DailyFeedCard p{
+    font-family: 'Newsreader', serif;
+    font-size: 15px;
+    color: rgb(156, 157, 157);
+}
+.DailyFeedCard h3{
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+}

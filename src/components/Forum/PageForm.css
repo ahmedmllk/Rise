@@ -1,0 +1,98 @@
+.trie{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.PageForm{
+    width: 90%;
+    margin: 0 auto;
+}
+.MiniPost{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    margin: 2vh 0;
+    align-items: center;
+padding: 1vh 2vh;
+    justify-content: space-between;
+}
+.sth{
+    width: 70%;
+}
+.MiniPost h2{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+
+}
+.MiniPost h3{
+    color: rgba(147, 147, 147, 0.642);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    margin-top: 0;
+
+}
+.MiniPost h1{
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0;
+
+}
+.bouttonez button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.trie select {
+    border: none;
+    font-size: 15px ;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    background-color: rgba(195, 196, 197, 0.481);
+    height: 5vh;
+    border-radius: 5px;
+    padding: 10px;
+}
+.trie option{
+    font-size: 15px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form{
+    width:100%;
+}
+.fillout {
+display: flex;
+gap: 2vh;
+margin: 3vh;
+}
+.fillout label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+} 
+textarea{
+width: 50%;
+height: 15vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+
+.PageForm > h1{
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    font-size: 40px;
+}
+.form >h1{
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    font-size: 40px;
+
+}
+.form button{
+    background-color: rgba(170, 170, 170, 0.285);
+    border: none;
+    border-radius:10px ;
+    height: 6vh;
+    width: 15vh;
+    font-size: 15px ;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.Home{
+    height: 100%;
+    background-color:#F5F5E2;
+}
+.more{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 3vh auto;
+}
+.Home h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 100px;
+    margin: 3vh auto;
+    text-align: center;
+    padding: 0;
+}
+.bondenoire1{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 5vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.bondenoire2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2vh 5vh;
+    background-color: black;
+}
+.bondenoire2 h2{
+    text-align: center;
+}
+.Home h2{
+    color:#F3F1E6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 0;
+    margin:0;
+}
+.Home ul{
+    display: flex;
+    gap: 3vh;
+}
+.Home li{
+    color:#F3F1E6;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Home li button{
+    color:#F3F1E6;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 21px;
+    border: none;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 5vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home img{
+    height: 400%;
+    width: 40%;
+}
+.intro h3{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+.intro p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.Home hr{
+    width: 90%;
+    margin: 0 auto;
+}
